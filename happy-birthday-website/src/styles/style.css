@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../assets/fonts/custom-font.woff2') format('woff2'),
+         url('../assets/fonts/custom-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 3em; /* Large font size for the main heading */
+    margin-top: 20px; /* Space above the heading */
+}
+
+h2 {
+    font-size: 2em; /* Slightly smaller font size for subheadings */
+    margin: 10px 0; /* Space above and below subheadings */
+}
+
+p {
+    font-size: 1.2em; /* Medium font size for paragraphs */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+.birthday-message {
+    font-weight: bold; /* Bold text for the birthday message */
+    color: #ff6347; /* Tomato color for emphasis */
+}
+
+.image-container {
+    margin: 20px 0; /* Space around the image container */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer {
+    margin-top: 40px; /* Space above the footer */
+    font-size: 0.8em; /* Smaller font size for footer text */
+    color: #666; /* Light gray text color */
+}
+
+.centered-text {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.email-icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.email-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#letter {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: none; /* Initially hidden */
+}
+
+.hidden {
+    display: none !important;
+}
+
+#message-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Set a smaller width */
+    max-width: 300px; /* Limit the maximum width */
+    word-wrap: break-word; /* Ensure long words break to fit the box */
+    text-align: center; /* Center-align the text */
+}
+
+#message-input {
+    width: 80%;
+    max-width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.sticker-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+#editable-text {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    line-height: 1.5; /* Add spacing between lines */
+    word-wrap: break-word; /* Ensure text wraps properly */
+    text-align: center;
+}
